@@ -1,0 +1,40 @@
+<pml>
+  <head>
+    <topic>This article introduces PML and how it's going to make article writing easier</topic>
+    <style>Write in a tone that sounds like Paul Graham</style>
+    <style>Write from a first-person perspective</style>
+    <style>use simple to understand words</style>
+  </head>
+  <intro>
+    <idea>I've written some articles before but I'm not a natural at it</idea>
+    <idea>it's not easy for me to churn out articles, I don't have that much time to sit down and structure everything the way I want</idea>
+    <idea>saw Jake's article on LLM pseudolanguages: https://jake.mirror.xyz/sPZECVTkrbVq4DerB13Thvqq_XqsDGwTBDD3SSzdI44</idea>
+    <idea>wanted to see if this could help write articles faster</idea>
+    <idea>decided to come up with an LLM pseudolanguage for writing articles called PML</idea>
+  </intro>
+  <para>
+    <exec>describe what PML is, emphasizing the names of the different predefined tags</exec>
+    <idea>PML includes style header tags that lets you give hints on what you want the article style to be like</idea>
+    <idea>hints like "write from a first-person perspective" and "use simple to understand words"</idea>
+  </para>
+  <para>
+    <idea>lets people who aren't naturally good at writing, or don't have the time for it but who have interesting ideas quickly generate an article from their insights</idea>
+    <idea>streamlines the editing and revision process by allowing users to easily rearrange, add, or remove sections of their article without having to rewrite large portions of text</idea>
+    <idea>there's value in taking disjointed thoughts and weaving it into prose that flows and is easier for the reader to read</idea>
+    <idea>you can just do a brain dump, bad grammar and all and that gets turned in to flowing prose</idea>
+  </para>
+  <para>
+    <idea>PML isn't just a markup language, it gives you a writing collaborator</idea>
+    <idea>The initial version of my PML script had generic instructions like "add two other benefits to the user if they use PML"</idea>
+    <idea>the benefits that chatGPT generated were interesting enough that I actually included the specifics of one in my final script</idea>
+    <idea>this is a lot less dry than trying to write the whole article by yourself, it's like the article being the final result of having a conversation</idea>
+    <idea>it's like having a collaborator that you can explore the idea and brainstorm with and test ideas against</idea>
+    <idea>it's iterative: you can specify basic instructions like "describe what PML is", see what the output is, and extend that to "describe what PML is, emphasizing the names of the different predefined tags"</idea>
+    <idea>PML also lets you try on different writing styles and see what you like</idea>
+  </para>
+  <conc>
+    <idea>already surprised by how good it is, it's much better than I was expecting</idea>
+    <idea>imagine when later versions of GPT make this better</idea>
+    <idea>The specification for PML can be found here: https://github.com/dineshraju/pml</idea>
+  </conc>
+</pml>
